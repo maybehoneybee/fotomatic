@@ -36,6 +36,7 @@ html {
   }
 }
 
+
 /* Header */
 
 header {
@@ -50,22 +51,40 @@ header {
 
 header .content {
   display: flex;
-  align-items: center;
   padding: 1.875rem;
-  
-  
+  width: 100%;
 }
 
 header .logo {
   flex: 1;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.25rem;
+
+}
+
+
+header .button {
+  padding: .1875rem .5rem;
+  background-color: #9dc20b;
+  line-height: 1.6;
+  color: white;
 }
 
 header nav ul {
   display: flex;
+  width: 100%;
+  justify-content: flex-end;
+
+}
+
+header li {
+  display: flex;
+  vertical-align: center;
 }
 
 nav li {
   padding-left: 3.5rem;
+
 }
 
 nav a {
@@ -73,16 +92,25 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+
 }
 
 header .icon {
   width: 1rem;
   padding-left: .75rem;
+
 }
 
 header .mobile {
   display: none;
+
 }
+
+.content > h2 {
+  padding-top: 2.5rem;
+
+}
+
 
 @media only screen and (max-width: 760px) {
   header .desktop {
