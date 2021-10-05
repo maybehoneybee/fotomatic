@@ -313,6 +313,26 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+  .feature:first-child {
+    background-color: lightgray;
+  }
+
+  .feature img {
+    padding-top: 1rem;
+  }
+  .feature .content h2{
+    padding-top: 1.5rem;
+    font-size: 18px;
+    line-height: 1.3;
+
+  }
+
+  .feature .content h3{
+    font-size: 14px;
+    line-height: 1.4;
+    padding-bottom: 2rem;
+  }  
+
 }
 
 /* Filters Section */
